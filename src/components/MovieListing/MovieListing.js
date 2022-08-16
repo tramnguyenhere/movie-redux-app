@@ -7,6 +7,7 @@ import '../MovieListing/MovieListing.scss';
 const MovieListing = () => {
   const movies = useSelector(getAllMovies);
   const shows = useSelector(getAllShows);
+
   let renderMovies,
     renderShows = '';
 
@@ -30,6 +31,7 @@ const MovieListing = () => {
         <h3>{shows.Error}</h3>
       </div>
     );
+
   return (
     <div className='movie-wrapper'>
       <div className='movie-list'>
