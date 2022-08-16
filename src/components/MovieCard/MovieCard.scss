@@ -4,7 +4,9 @@
     background: $secondary-color;
     cursor: pointer;
     transition: all 0.3s;
-
+    min-height: 450px;
+    height: 100%;
+    margin: 10px;
     &:hover {
         transform: scale(1.1);
         transition: all 0.3s;
@@ -30,7 +32,7 @@
 .card-info {
     color: $font-primary;
     h4 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         font-weight: 400;
         margin-bottom: 10px;
     }
